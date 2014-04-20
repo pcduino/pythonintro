@@ -1,4 +1,4 @@
-# Welcome! This is a Python program file for pcDuino python 
+# Welcome! This is a Python program file for pcDuino Lubuntu
 
 # The lines that start with a hash (#) are comments
 # They are for you to read and are ignored by Python
