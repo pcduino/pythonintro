@@ -246,7 +246,7 @@ print colour_set
 
 # 17. You can use a loop to look over all the items in a list
 
-my_class = ['Sarah', 'Bob', 'Jim', 'Tom', 'Lucy', 'Sophie', 'Liz', 'Ed']
+my_class = ['sky', 'young', 'Jim', 'darren', 'pillar', 'own', 'judy', 'alvin']
 
 # Below is a multi-line comment
 # Delete the ''' from before and after to uncomment the block
@@ -264,7 +264,7 @@ for student in my_class:
 
 # 18. You can split up a string by index
 
-full_name = 'Dominic Adrian Smith'
+full_name = 'kang Young'
 
 first_letter = full_name[0]
 last_letter = full_name[19]
@@ -283,7 +283,7 @@ print middle
 
 # 19. You can also split the string on a specific character
 
-my_sentence = "Hello, my name is Fred"
+my_sentence = "Hello, my name is young"
 parts = my_sentence.split(',')
 
 print(parts)
@@ -306,7 +306,7 @@ print parts_long
 
 # 20. You can group data together in a tuple
 
-person = ('Bobby', 26)
+person = ('Own', 26)
 
 print(person[0] + ' is ' + str(person[1]) + ' years old')
 
@@ -314,11 +314,11 @@ print(person[0] + ' is ' + str(person[1]) + ' years old')
 
 # (name, age)
 students = [
-    ('Dave', 19),
-    ('Sophia', 18),
-    ('Sam', 14),
-    ('Kate', 10),
-    ('Daniel', 7)
+    ('Sky', 19),
+    ('Young', 18),
+    ('Jim', 14),
+    ('Darren', 10),
+    ('Own', 7)
 ]
 
 # Now write a loop to print each of the students' names and age
@@ -352,20 +352,20 @@ for name,age in students:
 # to number
 
 addresses = {
-    'Lauren': '0161 5673 890',
-    'Amy': '0115 8901 165',
-    'Daniel': '0114 2290 542',
-    'Emergency': '999'
+    'Darren': '0161 5673 890',
+    'Jim': '0115 8901 165',
+    'Cherish': '0114 2290 542',
+    'Jarek': '999'
 }
 
 # You access dictionary elements by looking them up with the key:
 
-print(addresses['Amy'])
+print(addresses['Jim'])
 
 # You can check if a key or value exists in a given dictionary:
 
-print('David' in addresses)  # [False]
-print('Daniel' in addresses)  # [True]
+print('Jim' in addresses)  # [False]
+print('Cherish' in addresses)  # [True]
 print('999' in addresses)  # [False]
 print('999' in addresses.values())  # [True]
 print(999 in addresses.values())  # [False]
@@ -376,18 +376,18 @@ print(999 in addresses.values())  # [False]
 
 # Think: what would happen if phone numbers were stored as integers?
 
-# Try changing Amy's phone number to a new number
+# Try changing Cherish's phone number to a new number
 
-addresses['Amy'] = '0115 236 359'
-print(addresses['Amy'])
+addresses['Cherish'] = '0115 236 359'
+print(addresses['Cherish'])
 
 # GO!
 
-# Delete Daniel from the dictinary
+# Delete Jarek from the dictinary
 
-print('Daniel' in addresses)  # [True]
-del addresses['Daniel']
-print('Daniel' in addresses)  # [False]
+print('Jarek' in addresses)  # [True]
+del addresses['Cady']
+print('Jarek' in addresses)  # [False]
 
 # GO!
 
