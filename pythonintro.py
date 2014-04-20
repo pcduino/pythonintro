@@ -116,7 +116,7 @@ pcDuino_expensive = False
 pcDuino_age = 15
 pcDuinoer_age = 20 # fill in your age
 
-print(your_age == bobs_age)  # this prints either True or False
+print(pcDuino_age == pcDuinoer_age)  # this prints either True or False
 
 # GO!
 
