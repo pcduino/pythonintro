@@ -264,7 +264,7 @@ for student in my_class:
 
 # 18. You can split up a string by index
 
-full_name = 'kang Young'
+full_name = 'Young sky own jim darren'
 
 first_letter = full_name[0]
 last_letter = full_name[19]
