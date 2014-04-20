@@ -386,7 +386,7 @@ print(addresses['Cherish'])
 # Delete Jarek from the dictinary
 
 print('Jarek' in addresses)  # [True]
-del addresses['Cady']
+del addresses['Jarek']
 print('Jarek' in addresses)  # [False]
 
 # GO!
