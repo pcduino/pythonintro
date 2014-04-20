@@ -157,7 +157,7 @@ else:
 pcDuino = 49
 pcDuinoes = 3 * pcDuino
 
-total_cost = total_cost + pies
+total_cost = total_cost + pcDuino
 
 if total_cost <= money:
     message = "You have enough money for 3 pcDuinoes as well"
